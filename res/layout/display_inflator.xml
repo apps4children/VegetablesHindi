@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvNameDisplayInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/dReportPadding"
+            android:text=""
+            android:textSize="@dimen/dReportSizeBig"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:padding="@dimen/dReportPadding"
+            android:src="@drawable/delete" />
+
+        <TextView
+            android:id="@+id/tvDateDisplayInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/delete"
+            android:padding="@dimen/dReportPadding"
+            android:text=""
+            android:textSize="@dimen/dReportSizeBig"
+            android:textStyle="italic"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tlDisplayInflater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="200dip"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:padding="3dip"
+                android:text="NAME TO VEGETABLE"
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvName2VegStatus"
+                android:layout_width="100dip"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvName2VegDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="1.0"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="200dip"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:padding="3dip"
+                android:text="VEGETABLE TO NAME"
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvVeg2NameStatus"
+                android:layout_width="100dip"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvVeg2NameDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="1.0"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="200dip"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:padding="3dip"
+                android:text="VEGETABLE TO VEGETABLE"
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvVeg2VegStatus"
+                android:layout_width="100dip"
+                android:layout_height="match_parent"
+                android:layout_margin="1dip"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvVeg2VegDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:layout_weight="1.0"
+                android:padding="3dip"
+                android:text=""
+                android:textSize="@dimen/dReportSizeSmall"
+                android:textStyle="italic"
+                android:typeface="serif" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

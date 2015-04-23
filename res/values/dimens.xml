@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dButtonWidthHeight">120dip</dimen>
+    <dimen name="dImagePadding">5dip</dimen>
+    <dimen name="dVegetableNameButton">15sp</dimen>
+    <dimen name="dReportPadding">5.0dip</dimen>
+    <dimen name="dButtonLayoutWidth">300dip</dimen>
+    <dimen name="dTextSizeBig">30sp</dimen>
+    <dimen name="dTextSizeSmall">10sp</dimen>
+    <dimen name="dReportSizeBig">20sp</dimen>
+    <dimen name="dReportSizeSmall">13sp</dimen>
+    <dimen name="dlayoutMarginBottom">13sp</dimen>
+    
+    <dimen name="report_padding">5dp</dimen>
+</resources>

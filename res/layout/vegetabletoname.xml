@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inner_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back_btn"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/veg2name_header" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tlTableLayoutUpperVeg2Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:weightSum="1">
+
+        <TableRow
+            android:id="@+id/trTableRowUpper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/firstVeg2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dImagePadding" />
+
+            <TextView
+                android:id="@+id/secondVeg2Name"
+                android:layout_width="@dimen/dButtonWidthHeight"
+                android:layout_height="@dimen/dButtonWidthHeight"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#33000033"
+                android:textSize="@dimen/dTextSizeBig"
+                android:textStyle="italic|bold"
+                android:typeface="serif" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tlTableLayoutBelowVeg2Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:padding="20dip" >
+
+        <TableRow
+            android:id="@+id/trTableRowbelow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bVeg2Name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/dTextSizeBig"
+                 android:textColor="#ff0000ff"
+                android:textStyle="italic"
+                android:typeface="serif"
+                 android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/bVeg2Name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/dTextSizeBig"
+                android:textStyle="italic"
+                 android:textColor="#ff0000ff"
+                android:typeface="serif"
+                 android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/bVeg2Name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/dTextSizeBig"
+                android:textStyle="italic"
+                 android:textColor="#ff0000ff"
+                android:typeface="serif"
+                 android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/bVeg2Name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/dTextSizeBig"
+                android:textStyle="italic"
+                 android:textColor="#ff0000ff"
+                android:typeface="serif"
+                 android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/bVeg2Name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/dTextSizeBig"
+                android:textStyle="italic"
+                 android:textColor="#ff0000ff"
+                android:typeface="serif"
+                 android:layout_weight="0.2" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
